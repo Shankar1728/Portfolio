@@ -19,7 +19,7 @@ function Contact() {
             <tr>
               <th>Email</th>
               <td>
-                <a href="mailto:neelapalashankar876@gmail.com">neelapalashankar876@gmail.com</a>
+                <a href="mailto:neelapalashankar876@gmail.com" style={{textDecoration:'none'}}>neelapalashankar876@gmail.com</a>
               </td>
             </tr>
             <tr>
