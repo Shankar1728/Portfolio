@@ -11,7 +11,7 @@ function Projects() {
             Designed and implemented a CNN-based deep learning model for brain tumor detection from MRI images.
             Trained on curated medical imaging datasets, the model demonstrated high accuracy and robust evaluation performance.
           </p>
-        </div>className="project-description"
+        </div>
         <a href="https://github.com/Shankar1728/BrainTumor_Detection" target="_blank" className="project-link">
           View Project
         </a>
