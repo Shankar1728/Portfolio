@@ -32,7 +32,9 @@
   line-height: 1.6;
   color: white;
   margin-bottom: 20px;
+  text-align: justify; 
 }
+
 
 .project-link {
   display: inline-block;
