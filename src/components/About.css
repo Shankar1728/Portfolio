@@ -1,0 +1,151 @@
+.about-container {
+  color: white;
+  padding: 5% 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-intro {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 16px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.about-intro:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(0,216,255,0.3);
+}
+
+
+.about-skills, .about-education {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-skills h2,
+.about-education h2 {
+  background: linear-gradient(256deg, skyblue 30%, white 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.3s;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.about-skills h2::after,
+.about-education h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: #00d8ff;
+  transition: width 0.3s ease-in-out;
+}
+
+.about-skills h2:hover::after,
+.about-education h2:hover::after {
+  width: 100%;
+}
+
+
+.about-table-wrapper {
+  width: 100%;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #444;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+th {
+  background-color: rgba(0, 216, 255, 0.1);
+  font-weight: bold;
+}
+
+
+.skill-span {
+  display: inline-block;
+  background: linear-gradient(256deg, orange 30%, white 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 4px 8px;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.skill-span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: #00d8ff;
+  transition: width 0.3s ease;
+}
+
+.skill-span:hover::after {
+  width: 100%;
+}
+
+.skill-span:hover {
+  color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 8% 5%;
+  }
+
+  table, th, td {
+    font-size: 14px;
+  }
+
+  .about-intro {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+
+table tbody tr:hover {
+  background-color: rgba(0, 216, 255, 0.1);
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
