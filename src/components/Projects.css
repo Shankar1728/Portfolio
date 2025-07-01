@@ -27,13 +27,15 @@
   transition: transform 0.3s;
 }
 
-.project-description {
+.project-description p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
+  color: #f0f0f0;
   line-height: 1.6;
-  color: white;
+  text-align: justify;
   margin-bottom: 20px;
-  text-align: justify; 
 }
+
 
 
 .project-link {
