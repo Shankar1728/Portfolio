@@ -7,7 +7,7 @@ function Projects() {
       <div className="project-card">
         <h2 className="project-title">Brain Tumor Detection</h2>
         <div className="project-description">
-          <p>
+          <p style={{fontSize:'16px'}}>
             Designed and implemented a CNN-based deep learning model for brain tumor detection from MRI images.
             Trained on curated medical imaging datasets, the model demonstrated high accuracy and robust evaluation performance.
           </p>
