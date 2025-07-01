@@ -27,7 +27,7 @@
   transition: transform 0.3s;
 }
 
-.project-description p {
+.project-description{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   color: #f0f0f0;
