@@ -111,7 +111,6 @@ td {
   background-color: #111;
 }
 
-/* Links */
 a {
   color: skyblue;
   text-decoration: none;
@@ -121,7 +120,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Contact Page */
 .contact-container {
   display: flex;
   flex-direction: column;
