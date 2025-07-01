@@ -19,7 +19,7 @@ function Contact() {
             <tr>
               <th>Email</th>
               <td>
-                <a href="mailto:neelapalashankar876@gmail.com" style={{textDecoration:'none'}}>neelapalashankar876@gmail.com</a>
+                <a href="mailto:neelapalashankar876@gmail.com" >neelapalashankar876@gmail.com</a>
               </td>
             </tr>
             <tr>
@@ -35,7 +35,7 @@ function Contact() {
               <th>LinkedIn</th>
     
               <td>
-                <a href="https://www.linkedin.com/in/shankar-neelapala-43b04628b/" target="_blank" style={{textDecoration:'none'}}>
+                <a href="https://www.linkedin.com/in/shankar-neelapala-43b04628b/" target="_blank" >
                   https://www.linkedin.com/in/shankar-neelapala-43b04628b
                 </a>
               </td>
@@ -43,7 +43,7 @@ function Contact() {
             <tr>
               <th>GitHub</th>
               <td>
-                <a href="https://github.com/Shankar1728" target="_blank" style={{textDecoration:'none'}}>
+                <a href="https://github.com/Shankar1728" target="_blank" >
                   https://github.com/Shankar1728
                 </a>
               </td>
