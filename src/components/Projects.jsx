@@ -19,7 +19,7 @@ function Projects() {
       <div className="project-card">
         <h2 className="project-title">Portfolio Website</h2>
         <div className="project-description">
-          <p>
+          <p style={{fontSize:'16px'}}>
             A simple and elegant portfolio website developed with react, featuring my skills, education and
             projects in a clean and responsive layout.
           </p>
