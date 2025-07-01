@@ -20,7 +20,7 @@ function Projects() {
           A simple and elegant portfolio website developed with react, featuring my skills, education and 
           projects in a clean and responsive layout.
         </p>
-        <a href="https://github.com/Shankar1728/BrainTumor_Detection" target="_blank" className="project-link">
+        <a href="https://github.com/Shankar1728/Portfolio" target="_blank" className="project-link">
           View Project
         </a>
       </div>
