@@ -20,8 +20,8 @@ function Projects() {
         <h2 className="project-title">Portfolio Website</h2>
         <div className="project-description">
           <p style={{fontSize:'16px'}}>
-            A simple and elegant portfolio website developed with react, featuring my skills, education and
-            projects in a clean and responsive layout.
+            Designed and implemented a CNN-based deep learning model for brain tumor detection from MRI images.
+            Trained on curated medical imaging datasets, the model demonstrated high accuracy and robust evaluation performance
           </p>
         </div>
         <a href="https://github.com/Shankar1728/Portfolio" target="_blank" className="project-link">
