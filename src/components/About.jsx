@@ -5,13 +5,13 @@ function About() {
     <div className="about-container">
         <section className="about-intro">
         <p>
-            To secure a position that allows me to apply my education and develop my practical skills.
-            I am eager to learn and contribute to a dynamic team while honing my abilities.
-            I aim to work diligently, grow within the organization, and make a meaningful impact.
+            To secure a position that allows me to apply my education and develop my practical skills.I am eager to learn and 
+            contribute to a dynamic team while honing my abilities.I aim to 
+            work diligently, grow within the organization, and make a meaningful impact.
         </p>
         <p>
-            I'm looking forward to joining a collaborative team where I can contribute,
-            learn from experienced developers, and grow professionally in the tech industry.
+            Highly motivated Computer Science and Engineering graduate (Pursuing) with a strong foundation in java,
+            Eager to apply analytical and problem-solving skills to develop innovative solutions.
         </p>
         </section>
 
@@ -29,20 +29,16 @@ function About() {
                         </td>
                     </tr>
                     <tr>
-                        <th>Web Technologies</th>
+                        <th>Technologies and Tools</th>
                         <td>
+                        <span className="skill-span">Spring</span>
+                        <span className="skill-span">React.js</span>
                         <span className="skill-span">HTML5</span>
                         <span className="skill-span">CSS</span>
                         <span className="skill-span">JavaScript</span>
                         </td>
                     </tr>
-                    <tr>
-                        <th>Frameworks/Libraries</th>
-                        <td>
-                        <span className="skill-span">React.js</span>
-                        <span className="skill-span">Spring</span>
-                        </td>
-                    </tr>
+
                     <tr>
                         <th>Databases</th>
                         <td>
@@ -51,10 +47,12 @@ function About() {
                         </td>
                     </tr>
                     <tr>
-                        <th>Tools</th>
+                        <th>Development Tools/IDEs</th>
                         <td>
+                        <span className="skill-span">Git</span>
                         <span className="skill-span">GitHub</span>
                         <span className="skill-span">VS Code</span>
+                        <span className="skill-span">Eclipse</span>
                         </td>
                     </tr>
                     </tbody>

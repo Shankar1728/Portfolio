@@ -5,7 +5,7 @@ function Info() {
     <div id="info-div">
       <div><h1><b>I am Shankara Vara Prasad Neelapala</b></h1></div>
         <div>
-            <a href='/Resume.pdf' target="_blank">
+            <a href='/shankar_resume.pdf' target="_blank">
                 <button type='submit' id="button-id">Resume</button>
             </a>
         </div>

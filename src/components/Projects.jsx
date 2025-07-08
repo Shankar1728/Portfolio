@@ -13,11 +13,17 @@ function Projects() {
           </p>
         </div>
         <a href="https://github.com/Shankar1728/BrainTumor_Detection" target="_blank" className="project-link">
-          View Project
+          Github Repository
         </a>
       </div>
       <div className="project-card">
         <h2 className="project-title">Portfolio Website</h2>
+        <p className="project-description">
+          A simple and elegant portfolio website developed with react, featuring my skills, education and projects in a clean
+          and responsive layout.
+        </p>
+        <a href="https://github.com/Shankar1728/BrainTumor_Detection" target="_blank" className="project-link"/>
+          Github Repository
         <div className="project-description">
           <p>
             A simple and elegant portfolio website developed with react, featuring my skills, education ,
