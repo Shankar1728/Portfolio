@@ -30,9 +30,6 @@ function Projects() {
             projects and my contact details in a clean and responsive layout. 
           </p>
         </div>
-        <a href="https://github.com/Shankar1728/Portfolio" target="_blank" className="project-link">
-          View Project
-        </a>
       </div>
     </div>
   );
